@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+    $x=0;
+    while ($x < 10) {
+        $x++;
+        $b = "";
+        for ($a = 0; $a < 10; $a++) {
+            if ($x % 2 == 1) {
+                $b .= "<div style='height:3rem; width:3rem; background-color:red;'></div>";
+            } else {
+                $b .= "<div style='height:3rem; width:3rem; background-color:blue;'></div>";
+            }
+        }
+        echo "<div style='display:flex'>$b</div>";
+        $b = "";
+    }
+?>
     
 </body>
 </html>
