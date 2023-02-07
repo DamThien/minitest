@@ -20,7 +20,6 @@
             }
         }
         echo "<div style='display:flex'>$b</div>";
-        $b = "";
     }
 ?>
     
