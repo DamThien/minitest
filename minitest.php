@@ -12,7 +12,7 @@
     while ($x < 10) {
         $x++;
         $b = "";
-        for ($a = 0; $a < 10; $a++) {
+        for ($a = 0; $a <= 10; $a++) {
             if ($x % 2 == 1) {
                 $b .= "<div style='height:3rem; width:3rem; background-color:red;'></div>";
             } else {
